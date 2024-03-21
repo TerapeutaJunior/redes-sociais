@@ -10,6 +10,7 @@ body {
     background-image: url(../img/bg.png);
     background-size: contain;
     height: 100vh;
+    
    
    
 }
@@ -77,6 +78,7 @@ h1 {
 
 .redes>ul>li>a {
     border-radius: 30px;
+    border-color:#7F5C0B !important ;
     color: #7F5C0B;
     margin: 5px;
     border: 1px solid black;
