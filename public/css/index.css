@@ -7,10 +7,11 @@
 }
 
 body {
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../img/bg.png);
+    background-size: contain;
+    height: 100vh;
+   
+   
 }
 
 .card {
@@ -89,7 +90,7 @@ h1 {
 }
 
 .instagram:hover {
-    background-color: #3f729b;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
 .facebook:hover {
@@ -103,10 +104,13 @@ h1 {
 .youtube:hover {
     background-color: #c4302b;
 }
+.person:hover, .journal:hover{
+    background: rgba(127, 92, 11, 1);
+}
 
 .globe:hover {
-    background-color: #FFDE59;
-    color: #7F5C0B !important;
+background: rgb(255, 222, 89);
+    background: linear-gradient(191deg, rgba(255, 222, 89, 1) 0%, rgba(127, 92, 11, 1) 100%);
 }
 .redes>ul>li>a:hover {
     color: beige ;
